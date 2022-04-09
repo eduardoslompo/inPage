@@ -46,7 +46,6 @@ function bgAndPhrase(){
         good.textContent = 'Good Afternoon';
         document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1024x620/?afternoon,golden+hour')";
     } else{
-        document.body.style.color = "white";
         good.textContent = 'Good Evening';
         document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1024x620/?evening,night')";
     }
