@@ -41,13 +41,13 @@ function bgAndPhrase(){
     hour = today.getHours();
     if(hour < 12){
         good.textContent = 'Good Morning';
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1024x620/?morning,sunrise')";
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1024x720/?morning,sunrise')";
     } else if(hour < 18){
         good.textContent = 'Good Afternoon';
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1024x620/?afternoon,golden+hour')";
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1024x720/?afternoon,golden+hour')";
     } else{
         good.textContent = 'Good Evening';
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1024x620/?evening,night')";
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1024x720/?evening,night')";
     }
 }
 
