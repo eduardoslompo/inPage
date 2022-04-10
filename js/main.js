@@ -4,16 +4,16 @@ var good = document.getElementById('good');
 var phrase = document.getElementById('phrase');
 var coolThing = document.getElementById('coolThing');
 
-// Digital Cloak
-function cloak(){
-    let cloakTime = new Date();
-    let hour = theZero(cloakTime.getHours());
-    let min = theZero(cloakTime.getMinutes());
-    let sec = theZero(cloakTime.getSeconds());
+// Digital clock
+function clock(){
+    let clockTime = new Date();
+    let hour = theZero(clockTime.getHours());
+    let min = theZero(clockTime.getMinutes());
+    let sec = theZero(clockTime.getSeconds());
     
     time.innerHTML = `${hour}:${min}:${sec}`;
 
-    setTimeout(cloak, 1000);
+    setTimeout(clock, 1000);
 }
 
 // Let 0 before the hours/min/sec between 1 to 9
@@ -53,5 +53,5 @@ function bgAndPhrase(){
 
 // Run the functions
 askTheName();
-cloak();
+clock();
 bgAndPhrase();
